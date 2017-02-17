@@ -16,8 +16,6 @@ cantidadDeLineas :: Archivo -> Int
 cantidadDeLineas = length.lines.contenido
 
 --4
-
---4
 hayLineaBlanca :: Archivo -> Bool
 hayLineaBlanca = (any esLineaBlanca).lines.contenido
     
